@@ -6,9 +6,8 @@
 'use strict'
 
 var prettier = require('prettier')
-var log = (global.fis && fis.log) || console
-var assign = Object.assign || require('object.assign')
-
+var log = global.fis.log
+var assign = Object.assign || global.fis.util.assign
 var rcConfig = prettier.resolveConfig.sync('prettier')
 
 module.exports = function(content, file, conf) {

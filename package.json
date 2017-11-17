@@ -1,6 +1,6 @@
 {
   "name": "fis3-postprocessor-prettier",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a code formatter of fis3 based on prettier",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,6 @@
   "author": "fisker Cheung <lionkay@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "object.assign": "^4.0.4",
     "prettier": "^1.8.2"
   },
   "scripts": {
